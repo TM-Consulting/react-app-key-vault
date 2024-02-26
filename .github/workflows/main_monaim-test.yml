@@ -26,12 +26,11 @@ jobs:
           npm install
           npm run build --if-present
 
-
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
           name: node-app-2
-          path: /dist
+          path: /build
 
   deploy:
     runs-on: ubuntu-latest
