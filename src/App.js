@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Name: {process.env.REACT_APP_TEST_KEY}</p>
-        <p>public: {process.env.PUBLIC_URL}</p>
+        <p>public: {process.env.APPSETTING_REACT_APP_TEST_KEY}</p>
       </header>
     </div>
   );
